@@ -1,0 +1,225 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+
+	.cheked
+		&:before
+			content: "\f00c"
+			font-family: fontawesome
+			color: #fff
+			font-size: 60px
+			position: absolute
+			top: -10px
+			right: 20px
+	.header-menu
+		ul
+			padding-left: 20px
+			li
+				a
+					width: 190px
+					font-size: 21px
+
+	.s-content
+		.main-content
+			.content-title
+				.h3
+					font-size: 22px
+			.choose-color
+				margin-top: 50px
+				img
+					display: inline-block
+					margin-right: 20px
+					margin-top: 10px
+		
+@media only screen and (max-width : 992px)
+	.site-header
+		.top-line
+			padding-bottom: 15px
+			.logo
+				padding-left: 10px
+				img
+					width: 190px
+			.wrap-info
+				margin-top: 45px
+				.working-hours
+					text-align: center
+				.number
+					text-align: center
+					font-size: 26px
+
+	.header-nav
+		.wrap-hamburger
+			margin-top: 40px
+			text-align: right
+			padding-right: 20px
+	.hamburger
+		display: inline-block
+
+	.header-menu
+		background-color: $main-color
+		opacity: .9
+		display: none
+		position: absolute
+		right: 0px
+		width: 250px
+		z-index: 1
+		ul
+			padding-left: 0px
+			li
+				float: none
+				display: block
+				a
+					padding-right: 20px
+					border: none
+					text-align: right
+					display: block
+					width: 100%
+					
+
+	.s-content
+		.title
+			margin-left: -15px
+			color: #4b4b4b
+			padding: 20px 0
+			.h1
+				font-size: 55px
+				margin-bottom: -1px
+			p
+				font-size: 20px
+		
+		.recommend-also
+			.h5
+				margin: 15px 0 0 20px
+				display: inline-block
+				float: left
+			.wrap-hamburger
+				display: inline-block
+				float: left
+
+			ul
+				display: none
+				clear: both
+				li
+					display: inline-block
+					a
+						border: 1px solid #9b9b9b
+						width: 280px
+						display: inline-block
+						margin-right: 15px
+						padding: 5px 10px
+						color: #9b9b9b
+						&:hover
+							color: $accent-color
+							border-color: $accent-color
+		.main-content, .coments
+			margin: 0 -15px
+
+		.about-window
+			margin: 30px -15px
+
+	
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.cheked
+		&:before
+			content: "\f00c"
+			font-family: fontawesome
+			color: #fff
+			font-size: 60px
+			position: absolute
+			top: -10px
+			right: 5px
+	.site-header
+		.top-line
+			padding-bottom: 15px
+			.logo
+				padding-left: 10px
+				img
+					width: 130px
+			.wrap-info
+				margin-top: 30px
+				.working-hours
+					text-align: center
+					font-size: 14px
+				.number
+					text-align: center
+					font-size: 22px
+					
+	.header-nav
+		.wrap-hamburger
+			margin-top: 30px
+
+	.s-content
+		.title
+			margin-left: -15px
+			color: #4b4b4b
+			padding: 20px 0
+			.h1
+				font-size: 35px
+				margin-bottom: -1px
+			p
+				font-size: 14px
+		.main-content
+			.wrap-content
+				padding: 30px 20px
+				.choose-color
+					margin-top: 50px
+					img
+						display: inline-block
+						margin-right: 5px
+						margin-top: 10px
+
+
+	
+							
+		
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.site-header
+		.top-line
+			.wrap-info
+				display: none
+		
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	.header-menu
+		display: block !important
+
+	.s-content
+		.recommend-also
+			ul
+				display: block !important
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+	
+
+
